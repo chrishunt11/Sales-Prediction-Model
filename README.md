@@ -73,9 +73,7 @@ This visual shows that majority of the stores are SuperMarket Type 1.
 - The Mean Squared Error was '$1,116,454.43'.
 - The Root Mean Squared Error had a calculation of '$1,056.62'
 
-Using this model 
-
-Refer to the metrics to describe how well the model would solve the business problem
+Using this model to make predictions about what Products to sell at which Outlet Location and Type would not be very reliable. After reviewing the regression metrics on how well the model performed, there is a disparity between the R^2 score.
 
 ## Recommendations:
 
