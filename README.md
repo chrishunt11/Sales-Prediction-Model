@@ -5,19 +5,38 @@
 
 ### Business problem:
 
-There are a ton of different products a store could sell. A major problem is figuring out which products are worth selling. There are so many options to choose from and knowing which product to choose can be difficult
+A problem retailers often run into is how to increase their sales. Within this problem there are subproblems they need to focus on. One being able to figure out which products are worth selling. Another being able to figure out which Outlets play a crucial role in increasing sales. There are many factors that come into play when deciding what to sell and where to sell it.
 
-### Data:
-Big Mart Sales Prediction https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+### Data Source:
+
+Big Mart Sales Prediction: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
 For this dataset there were 8523 rows and 12 columns
 
 ### Data Dictionary
+<p align = "center"> 
+  <img width="429" alt="Data Dictionary" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/06c0f6b5-b1be-4a6d-8712-6cff3262a07c">
+</p>
 
+### To prepare this data, the data was cleaned, and the following processes were performed:
 
-## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+#### Exploratory Data Analysis
+
+- During the exploratory data analysis, a histogram and a boxplot was visualized for Outlet Sales.
+- Also, countplots were visualized for the Outlet location and Type.
+- This gave good baseline for all the Sales of the Products and the count for the Location and Type.
+
+<p align = "center"> 
+![OutletSales](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/f67d9260-ebe3-4398-b457-f8b6815bcc2c)
+
+</p>
+
+#### Explanitory Data Analysis
+
+- During the Explanitory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
+- Also, a countplot was visualized for each categorical column.
+- This gave a good baseline for all of the numeric and caegorical columns for univariate and multivarite EDA.
+
 
 ## Results
 
