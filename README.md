@@ -1,3 +1,6 @@
+![bigmart](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/998a2af5-0f2c-4a58-b68e-1dd392901142)
+
+
 # Production Sales and Insights
 ## Analyzing Product Sales 
 
