@@ -78,15 +78,19 @@ Using this model to make predictions about what Products to sell at which Outlet
 
 ## Recommendations:
 
-More of your own text here
+- There appears to be a moderate correlation between Item MRP and Item Sales. If a retailor were to look to increase their Sales, one thing they could try doing is increase the Item MRP.
+
+Model Performace 
+- Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is a little over fit, but by far it outperformed the linear regression model.
 
 
 ## Limitations & Next Steps
 
-More of your own text here
-
+From here, a student could use the insights from the visuals on how to increase the Sales and could look for more correlations within the data.
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact:
+- Christopher Hunt Jr.
+- cjhunt592.1@gmail.com
