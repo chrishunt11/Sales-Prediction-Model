@@ -47,18 +47,18 @@ This visual shows that the greater the MRP price the greater the Outlet Sales.
 ![avg-sale-item](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/44733357-7ff1-404b-85ed-772a71817a26)
 
 The top five highest earning sales per item type are as follows:
-- Starchy Foods            $2,374.33
-- Seafood                  $2,326.07
-- Fruits and Vegetables    $2,289.01
-- Snack Foods              $2,277.32
-- Household                $2,258.78
+- Starchy Foods            '$2,374.33'
+- Seafood                  '$2,326.07'
+- Fruits and Vegetables    '$2,289.01'
+- Snack Foods              '$2,277.32'
+- Household                '$2,258.78'
 
 The bottom five highest earning sales per item types are as follows:
-- Breakfast                $2,111.81
-- Health and Hygiene       $2,010.00
-- Soft Drinks              $2,006.51
-- Baking Goods             $1,952.97
-- Others                   $1,926.14
+- Breakfast                '$2,111.81'
+- Health and Hygiene       '$2,010.00'
+- Soft Drinks              '$2,006.51'
+- Baking Goods             '$1,952.97'
+- Others                   '$1,926.14'
 
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
