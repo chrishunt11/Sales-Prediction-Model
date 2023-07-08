@@ -8,7 +8,7 @@
 
 ### Business problem:
 
-A problem retailers often run into is how to continually increase their sales. Within this problem there are subproblems they need to focus on. One is to figure out which products are worth selling; another is to figure out which outlets play a crucial role in increasing sales. There are many factors that come into play when deciding what to sell and where to sell it.
+A challenge retailers often run into is how to continually increase their sales. Within this problem there are subproblems they need to focus on. One is to figure out which products are worth selling; another is to figure out which outlets play a crucial role in increasing sales. There are many factors that come into play when deciding what to sell and where to sell it.
 
 ### Data Source:
 
