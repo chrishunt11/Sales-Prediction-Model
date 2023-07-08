@@ -164,6 +164,7 @@ Using this model to make predictions about what Products to sell at which Outlet
 ## Recommendations:
 
 - There appears to be a moderate correlation between Item MRP and Item Sales. If a retailor were to look to increase their Sales, one thing they could try doing is increase the Item MRP.
+- After visualizing the average sales per Outlet Type, Supermarket Type 3 had the greatest average sale. A retailor might want to look into this and could look to sell products in more Supermarket Type 3 stores.
 
 Model Performace 
 - Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is a little over fit, but by far it outperformed the linear regression model.
@@ -171,7 +172,8 @@ Model Performace
 
 ## Limitations & Next Steps
 
-From here, a student could use the insights from the visuals on how to increase the Sales and could look for more correlations within the data.
+- From here, a student could use the insights from the visuals on how to increase the Sales and could look for more correlations within the data.
+- A student could go more in depth on which items are in most Outlet stores and potientially be able to find a correlation between products sold at certain stores.
 
 ### For further information
 
