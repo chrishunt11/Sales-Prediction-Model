@@ -46,48 +46,73 @@ This visual shows that the majority of the products have a visibility percentage
 This visual shows that the greater the MRP price the greater the Outlet Sales.
 
 
-![avg-sale-item](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/44733357-7ff1-404b-85ed-772a71817a26)
+![tot-sale-item](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/bd5decf4-f20b-4582-92f2-1f8cf5c3d2a9)
 
 
 The top five highest earning sales per item type are as follows:
-- Starchy Foods:            `$2,374.33`
-- Seafood:                  `$2,326.07`
-- Fruits and Vegetables:    `$2,289.01`
-- Snack Foods:              `$2,277.32`
-- Household:                `$2,258.78`
+- Fruits and Vegetables:    `$2,820,059.82`
+- Snack Foods:              `$2,732,786.09`
+- Household:                `$2,055,493.71`
+- Frozen Foods:             `$1,825,734.79`
+- Dairy:                    `$1,522,594.05`
 
 The bottom five highest earning sales per item types are as follows:
-- Breakfast:                `$2,111.81`
-- Health and Hygiene:       `$2,010.00`
-- Soft Drinks:              `$2,006.51`
-- Baking Goods:             `$1,952.97`
-- Others:                   `$1,926.14`
+- Hard Drinks:               `$457,793.43`
+- Starchy Foods:             `$351,401.25`
+- Others:                    `$325,517.61`
+- Breakfast:                 `$232,298.95`
+- Seafood:                   `$148,868.22`
 
-
-
-![sales-outlet-size](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/4369bdbe-1c14-4fd0-8bea-b290c969de04)
-
+![sales-outlet-size](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/329fe0f0-8673-4557-977f-ae904d28268f)
 
 This barplot shows that the most sales were at Medium sized stores.
 
 
 In order, the outlet sales per outlet size are as follows:
-- Medium:          `$2,681.60`
-- High:            `$2,299.00`
-- Small:           `$1,912.15`
+- Medium:          `$7,489,718.69`
+- Small:           `$4,566,212.20`
+- High:            `$2,142,663.58`
 
 
-![sales-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/093ee71e-b17c-4816-8624-d49f8cc519fc)
+![sales-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/0fc0cdc9-532c-40ba-99ff-bd9c765730b2)
 
 
-This barplot shows that majority of the outlet sales were at Supermarket type 3.
+This barplot shows that majority of the outlet sales were at Supermarket type 1.
 
 
 In order, the outlet sales per outlet type are as follows:
-- Supermarket Type3:	    `$3,694.04`
-- Supermarket Type1:	    `$2,316.18`
-- Supermarket Type2:	    `$1,995.50`
-- Grocery Store:	        `$339.83`
+- Supermarket Type 1:	    `$12,917,342.26`
+- Supermarket Type 3:	    `$3,453,926.05`
+- Supermarket Type 2:	    `$1,851,822.83`
+- Grocery Store:	        `$368,034.27`
+
+
+After viewing which type of outlet has the most sales, it is also important to take a look at how many of each outlet types there are to gain more knowledge.
+
+
+![tot-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/1e59cc89-c3a0-452f-acb9-ac87c609688f)
+
+
+In order, the count of the Outlet Type are as follows:
+- Supermarket Type 1:       `5,577`
+- Grocery Store:            `1,083`
+- Supermarket Type 3:       `935`
+- Supermarket Type 2:       `928`
+
+After viewing the countplot information we can see a strong correlation to why their total sales is significantly more than any other Outlet type.
+
+
+After seeing Supermarket Type1 has over five times the amount of stores, I looked into the average Sales per Store.
+
+![avg-sale-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/710e51bb-f5bf-4d45-8609-89822ca8d400)
+
+In order, the average Sales per Outlet Type are as follows:
+- Supermarket Type3        `$3,694.04`
+- Supermarket Type1        `$2,316.18`
+- Supermarket Type2        `$1,995.50`
+- Grocery Store            `$339.83`
+
+This barplot shows that Supermarket Type 3 has the highest average per store despite having the least amount of stores.
 
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
