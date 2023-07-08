@@ -99,7 +99,7 @@ In order, the count of the Outlet Type are as follows:
 - Supermarket Type 3:       `935`
 - Supermarket Type 2:       `928`
 
-After viewing the countplot information we can see a strong correlation to why their total sales is significantly more than any other Outlet type.
+After viewing the countplot information we can see a strong correlation to why their total sales are significantly greater than any other Outlet type.
 
 
 After seeing Supermarket Type1 has over five times the amount of stores, I looked into the average Sales per Store.
