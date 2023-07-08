@@ -91,6 +91,8 @@ In order, the outlet sales per outlet type are as follows:
 
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
+    - Bagged Tree Regressor Model
+    - Tuned Bagged Tree Regressor Model
     - Random Forest Regressor Model
     - Tuned Random Forest Regressor Model
 
@@ -101,6 +103,18 @@ In order, the outlet sales per outlet type are as follows:
   - MAE = 802.048
   - MSE = 1,186,964.271
   - RMSE = 1,089.479
+
+- Bagged Tree Regressor Model (Testing Set):
+  - R^2 = 0.526
+  - MAE = 795.198
+  - MSE = 1,306,771.261
+  - RMSE = 1,143.141
+
+- Tuned Bagged Tree Regressor Model (Testing Set):
+  - R^2 = 0.578
+  - MAE = 756.837
+  - MSE = 1,163,912.604
+  - RMSE = 1,078.848 
 
 - Random Forest Model (Testing Set):
   - R^2 = 0.554
