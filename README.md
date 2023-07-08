@@ -99,10 +99,10 @@ In order, the count of the Outlet Type are as follows:
 - Supermarket Type 3:       `935`
 - Supermarket Type 2:       `928`
 
-After viewing the countplot information we can see a strong correlation to why their total sales are significantly greater than any other Outlet type.
+After viewing the countplot we can see that there are over five times the amount of Supermarket Type 1 stores than any other store.
 
 
-After seeing Supermarket Type1 has over five times the amount of stores, I looked into the average Sales per Store.
+After seeing Supermarket Type1 has over five times the amount of stores, I looked into the average Sales per Store to see if Supermarket Type 1 had the greatest average sales as well.
 
 ![avg-sale-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/710e51bb-f5bf-4d45-8609-89822ca8d400)
 
@@ -167,13 +167,13 @@ Using this model to make predictions about what Products to sell at which Outlet
 - After visualizing the average sales per Outlet Type, Supermarket Type 3 had the greatest average sale. A retailor might want to look into this and could look to sell products in more Supermarket Type 3 stores.
 
 Model Performace 
-- Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is a little over fit, but by far it outperformed the linear regression model.
+- Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is a moderatetly over fit, but it by far it outperformed the Linear Regression Model and the Bagged Tree Regressor Model.
 
 
 ## Limitations & Next Steps
 
 - From here, a student could use the insights from the visuals on how to increase the Sales and could look for more correlations within the data.
-- A student could go more in depth on which items are in most Outlet stores and potientially be able to find a correlation between products sold at certain stores.
+- A student could go more in depth on which items are in sold most in each Outlet store type and potientially be able to find a correlation between products sold at certain stores.
 
 ### For further information
 
