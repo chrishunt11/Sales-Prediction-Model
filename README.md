@@ -112,7 +112,7 @@ In order, the average Sales per Outlet Type are as follows:
 - Supermarket Type2        `$1,995.50`
 - Grocery Store            `$339.83`
 
-This barplot shows that Supermarket Type 3 has the highest average per store despite having the least amount of stores.
+This barplot shows that Supermarket Type 3 has the highest average per store despite having the second least amount of stores.
 
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
