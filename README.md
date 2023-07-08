@@ -37,7 +37,7 @@ This visual shows that the majority of the products have a visibility percentage
 
 - During the Explanitory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
 - Also, a numerous barplots are visualized to get a better understanding of which outlet type and size have the most sales.
-- This gave a good baseline for all of the numeric and caegorical columns for univariate and multivarite EDA.
+- This gave a good baseline for all of the numeric and categorical columns for univariate and multivarite EDA.
 
 
 ![Mrp-OutletSales](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/94e0aeef-f97a-4c0e-8ce0-5dd8bee14070)
