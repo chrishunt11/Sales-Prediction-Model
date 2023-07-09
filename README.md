@@ -1,4 +1,4 @@
-![bigmart](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/998a2af5-0f2c-4a58-b68e-1dd392901142)
+![produce-stand](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/5f2fbe30-7e71-4c91-9223-8656b9eabed5)
 
 
 # Production Sales and Insights
