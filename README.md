@@ -1,4 +1,4 @@
-![produce-stand](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/5f2fbe30-7e71-4c91-9223-8656b9eabed5)
+![Fruit_Stand](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/5f69a2bf-9a8f-47f1-bd6b-ec0966a711a0)
 
 
 # Production Sales and Insights
