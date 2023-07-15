@@ -36,7 +36,7 @@ This visual shows that the majority of the products have a visibility percentage
 #### Explanitory Data Analysis
 
 - During the Explanitory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
-- Also, a numerous barplots are visualized to get a better understanding of which outlet type and size have the most sales.
+- Also, numerous barplots are visualized to get a better understanding of which outlet type and size have the most sales.
 - This gave a good baseline for all of the numeric and categorical columns for univariate and multivarite EDA.
 
 
