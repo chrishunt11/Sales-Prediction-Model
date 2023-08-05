@@ -59,16 +59,6 @@ The bottom five highest earning sales per item types are as follows:
 - Breakfast:                 `$232,298.95`
 - Seafood:                   `$148,868.22`
 
-![sales-outlet-size](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/329fe0f0-8673-4557-977f-ae904d28268f)
-
-This barplot shows that the most sales were at Medium sized stores.
-
-
-In order, the outlet sales per outlet size are as follows:
-- Medium:          `$7,489,718.69`
-- Small:           `$4,566,212.20`
-- High:            `$2,142,663.58`
-
 
 ![sales-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/0fc0cdc9-532c-40ba-99ff-bd9c765730b2)
 
