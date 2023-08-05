@@ -40,10 +40,6 @@ This visual shows that the majority of the products have a visibility percentage
 - This gave a good baseline for all of the numeric and categorical columns for univariate and multivarite EDA.
 
 
-![Mrp-OutletSales](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/94e0aeef-f97a-4c0e-8ce0-5dd8bee14070)
-
-
-This visual shows that the greater the MRP price the greater the Outlet Sales.
 
 
 ![tot-sale-item](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/bd5decf4-f20b-4582-92f2-1f8cf5c3d2a9)
