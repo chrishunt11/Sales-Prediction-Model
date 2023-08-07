@@ -88,9 +88,7 @@ This bar plot underscores that the majority of outlet sales are from Supermarket
   - R^2 = 0.595
   - MAE = 736.676
   - MSE = 1,116,454.429
-  - RMSE
-
- = 1,056.624
+  - RMSE = 1,056.624
 
 - The Final Model Chosen was a 'Random Forest Regressor Model' with the n_estimators tuned to 150.
 - For the testing model, '59.5%' of the variance in y was explained by X.
