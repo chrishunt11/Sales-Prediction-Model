@@ -1,113 +1,64 @@
 ![Fruit_Stand](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/5f69a2bf-9a8f-47f1-bd6b-ec0966a711a0)
 
-
 # Production Sales and Insights
-## Analyzing Product Sales 
+## In-Depth Analysis of Product Sales 
 
 **Author**: Christopher Hunt
 
-### Business problem:
+### Business Problem:
 
-A challenge retailers often run into is how to continually increase their sales. Within this problem there are subproblems they need to focus on. One is to figure out which products are worth selling; another is to figure out which outlets play a crucial role in increasing sales. There are many factors that come into play when deciding what to sell and where to sell it.
+In the realm of retail, the consistent enhancement of sales performance remains a formidable challenge. This multifaceted challenge encompasses subproblems such as discerning viable products for sale and identifying pivotal outlets that drive sales. Within this intricate landscape, the interplay of factors governing product selection and strategic outlet placement becomes paramount.
 
 ### Data Source:
 
-Big Mart Sales Prediction: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+Source: Big Mart Sales Prediction - https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
-For this dataset there were 8523 rows and 12 columns
+The dataset comprises 8523 rows and 12 columns.
 
 ### Data Dictionary
 <p align = "center"> 
   <img width="429" alt="Data Dictionary" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/06c0f6b5-b1be-4a6d-8712-6cff3262a07c">
 </p>
 
-### To prepare this data, the data was cleaned, and the following processes were performed:
+### Data Preparation and Exploratory Data Analysis:
 
 #### Exploratory Data Analysis
 
-- During the exploratory data analysis, a histogram and a boxplot was visualized for Outlet Sales, MRP, Visibility, Outlet Type, and Outlet Location.
-- Also, countplots were visualized for the Outlet location and Type.
-- This gave good baseline for all the Sales of the Products and the count for the Location and Type.
+- During the exploratory data analysis, visualizations such as histograms and box plots were employed for key parameters such as Outlet Sales, MRP, Visibility, Outlet Type, and Outlet Location.
+- Count plots were employed to visualize the distribution of Outlet location and type.
+- These efforts provided a foundational understanding of sales distribution and location/type counts.
 
 ![Visibilitypng](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/74f27d5c-bcf8-4361-b380-8a585a00707d)
 
-This visual shows that the majority of the products have a visibility percentage of about 3 percent.
+This visualization highlights that the majority of products exhibit visibility percentages around 3 percent.
 
-#### Explanitory Data Analysis
+#### Explanatory Data Analysis
 
-- During the Explanitory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
-- Also, numerous barplots are visualized to get a better understanding of which outlet type and size have the most sales.
-- This gave a good baseline for all of the numeric and categorical columns for univariate and multivarite EDA.
-
-
-
+- In-depth examination through box plots, histograms, and bar plots facilitated insights into numeric and categorical columns' distribution.
+- Bar plots illuminated the outlet types and sizes with the most significant sales.
+- This stage of analysis laid the groundwork for both univariate and multivariate explorations.
 
 ![tot-sale-item](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/bd5decf4-f20b-4582-92f2-1f8cf5c3d2a9)
 
-
-The top five highest earning sales per item type are as follows:
+The top five highest-earning sales per item type are:
 - Fruits and Vegetables:    `$2,820,059.82`
 - Snack Foods:              `$2,732,786.09`
 - Household:                `$2,055,493.71`
 - Frozen Foods:             `$1,825,734.79`
 - Dairy:                    `$1,522,594.05`
 
-The bottom five highest earning sales per item types are as follows:
-- Hard Drinks:               `$457,793.43`
-- Starchy Foods:             `$351,401.25`
-- Others:                    `$325,517.61`
-- Breakfast:                 `$232,298.95`
-- Seafood:                   `$148,868.22`
-
-
 ![sales-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/0fc0cdc9-532c-40ba-99ff-bd9c765730b2)
 
+This bar plot underscores that the majority of outlet sales are from Supermarket Type 1.
 
-This barplot shows that majority of the outlet sales were at Supermarket type 1.
+### Machine Learning Using the Following Models:
+  - Linear Regression Model
+  - Bagged Tree Regressor Model
+  - Tuned Bagged Tree Regressor Model
+  - Random Forest Regressor Model
+  - Tuned Random Forest Regressor Model
 
-
-In order, the outlet sales per outlet type are as follows:
-- Supermarket Type 1:	    `$12,917,342.26`
-- Supermarket Type 3:	    `$3,453,926.05`
-- Supermarket Type 2:	    `$1,851,822.83`
-- Grocery Store:	        `$368,034.27`
-
-
-After viewing which type of outlet has the most sales, it is also important to take a look at how many of each outlet types there are to gain more knowledge.
-
-
-![tot-outlet-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/1e59cc89-c3a0-452f-acb9-ac87c609688f)
-
-
-In order, the count of the Outlet Type are as follows:
-- Supermarket Type 1:       `5,577`
-- Grocery Store:            `1,083`
-- Supermarket Type 3:       `935`
-- Supermarket Type 2:       `928`
-
-After viewing the countplot we can see that there are over five times the amount of Supermarket Type 1 stores than any other store.
-
-
-After seeing Supermarket Type1 has over five times the amount of stores, I looked into the average Sales per Store to see if Supermarket Type 1 had the greatest average sales as well.
-
-![avg-sale-type](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/710e51bb-f5bf-4d45-8609-89822ca8d400)
-
-In order, the average Sales per Outlet Type are as follows:
-- Supermarket Type3        `$3,694.04`
-- Supermarket Type1        `$2,316.18`
-- Supermarket Type2        `$1,995.50`
-- Grocery Store            `$339.83`
-
-This barplot shows that Supermarket Type 3 has the highest average per store despite having the second least amount of stores.
-
- ### Maching Learning Using the Following Models:
-    - Linear Regression Model
-    - Bagged Tree Regressor Model
-    - Tuned Bagged Tree Regressor Model
-    - Random Forest Regressor Model
-    - Tuned Random Forest Regressor Model
-
-## Models Evaluated & Results
+## Models Evaluated & Results:
 
 - Linear Regression Model (Testing Set):
   - R^2 = 0.570
@@ -137,32 +88,30 @@ This barplot shows that Supermarket Type 3 has the highest average per store des
   - R^2 = 0.595
   - MAE = 736.676
   - MSE = 1,116,454.429
-  - RMSE = 1,056.624
+  - RMSE
+
+ = 1,056.624
 
 - The Final Model Chosen was a 'Random Forest Regressor Model' with the n_estimators tuned to 150.
-- For the testing model '59.5%' of the variance in y was explained by X.
-- The Mean Absolute Error was off by about '$736.68'
+- For the testing model, '59.5%' of the variance in y was explained by X.
+- The Mean Absolute Error was approximately '$736.68'.
 - The Mean Squared Error was '$1,116,454.43'.
-- The Root Mean Squared Error had a calculation of '$1,056.62'
+- The Root Mean Squared Error calculated as '$1,056.62'.
 
-Using this model to make predictions about what Products to sell at which Outlet Location and Type would not be very reliable. After reviewing the regression metrics on how well the model performed, there is a disparity between the R^2 score.
+Utilizing this model for predictions on product sales and optimal outlet selection necessitates careful consideration, given the disparities in R^2 scores.
 
 ## Recommendations:
 
-- There appears to be a moderate correlation between Item MRP and Item Sales. If a retailor were to look to increase their Sales, one thing they could try doing is increase the Item MRP.
-- After visualizing the average sales per Outlet Type, Supermarket Type 3 had the greatest average sale. A retailor might want to look into this and could look to sell products in more Supermarket Type 3 stores.
+- A moderate correlation between Item MRP and Item Sales was discerned. Retailers could potentially boost sales by strategically increasing Item MRP.
+- Considering the superior average sale in Supermarket Type 3, retailers might explore expanding their product offerings in this outlet category.
 
-Model Performace 
-- Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is a moderatetly over fit, but it by far it outperformed the Linear Regression Model and the Bagged Tree Regressor Model.
+## Limitations & Next Steps:
 
+- Further exploration of sales correlations and in-depth product-outlet analyses could unveil additional insights.
+- An inquisitive student might investigate the possibility of correlating product sales with specific outlet sizes and types.
 
-## Limitations & Next Steps
+### For Further Information:
 
-- From here, a student could use the insights from the visuals on how to increase the Sales and could look for more correlations within the data.
-- A student could go more in depth on which items are in sold most in each Outlet store type and potientially be able to find a correlation between products sold at certain stores.
-
-### For further information
-
-For any additional inquiries, please contact.
+For any further inquiries or information, please contact:
 - Christopher Hunt Jr.
-- cjhunt592.1@gmail.com
+- Email: cjhunt592.1@gmail.com
