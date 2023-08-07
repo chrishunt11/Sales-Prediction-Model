@@ -114,4 +114,5 @@ Utilizing this model for predictions on product sales and optimal outlet selecti
 
 For any further inquiries or information, please contact:
 - Christopher Hunt Jr.
+- [LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
 - Email: cjhunt592.1@gmail.com
