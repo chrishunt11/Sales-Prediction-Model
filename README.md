@@ -170,6 +170,48 @@ Utilizing this model for predictions on product sales and optimal outlet selecti
 - The presence of "Supermarket Type3" outlets is associated with an average increase of approximately 0.029663 units in "Item_Outlet_Sales."
 - This indicates that the sales in Supermarket Type3 outlets differ from other types and contribute moderately to overall sales.
 
+
+### SHAP Bar Plot Interpretation
+![shap-feature-value](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/1d96943d-505b-4e08-ab0f-76db4a984742)
+![shap-summary-plot](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/7d639b18-469a-4993-9107-736b29208d6c)
+
+- The top 3 most important features are as follows:
+    - Item_MRP
+    - Outlet_Size_Medium
+    - Item_Weight
+
+- Item_MRP:
+    - The higher an item_MRP (red dots), the more likely it is to positively impact our predictive model
+
+- Outlet_Size_Medium:
+    - The higher count of an item being sold at a medium sized store(red dots), it will positively impact our prediction
+
+- Item_Weight:
+    - A central cluster of our values with mixed feature value colors indicates an average/typical impact on the model predictions
+
+
+## Local Models
+
+- Item_MRP (selected since it is ranked as the most impactful to predictions)
+- Item_Weight (selected since the values reflected in the summary plot are bunched up and could use additional clarification)
+- Item_Visibility (selected to gain additional insight on store placement combined with parameters above leading to higher/lower sales) the combinations above can give additional insight on larger/bulkier items costing less vs smaller items that cost more and if placement has an overall impact on the two features.
+
+**Using products that are:**
+  - higher / lower than average Item_MRP, higher / lower than average Item_Weight, higher / lower than average Item_Visibility
+
+- Group 1:
+    - less expensive, larger, and less visable
+- Group 2:
+    - more expensive, smaller, more visable
+
+### Group 1
+
+#### Lime Tabular
+<img width="401" alt="Screenshot 2023-10-02 140236" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/ab6c323a-640f-49a6-ae25-bd1eb5aed29e">
+
+#### Interpretation:
+The plot above relates that the Item_MRP, 
+
 #### Contact information:
 
 For any further inquiries or information, please contact:
