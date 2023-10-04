@@ -209,10 +209,36 @@ Utilizing this model for predictions on product sales and optimal outlet selecti
 #### Lime Tabular
 <img width="401" alt="Screenshot 2023-10-02 140236" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/ab6c323a-640f-49a6-ae25-bd1eb5aed29e">
 
-#### Interpretation:
-The plot above relates that the Item_MRP, 
 
-#### Contact information:
+
+**Interpretation:**
+- The plot above relates that the Item_MRP, having the item be sold at a small sized store, and having the item be sold at a high sized store will reduce the predicted value of the item. While item visibility, item being a breakfast type and the item being a snack food are influencers toward the item having a higher value.
+
+
+#### Force Plot 
+<img width="448" alt="Screenshot 2023-10-02 140247" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/0a2932a0-360a-4b0f-8844-400d8f768796">
+
+
+**Interpretation:**
+- The plot above relates that this items main influence towards a higher predictions are Item_Visibility, Item_Type_Snack_Foods, and Item_Weight while item_mrp is opposing that force along with the item being sold in a medium sized store.
+
+
+
+### Group 2
+#### Lime Tabular
+<img width="457" alt="Screenshot 2023-10-04 150455" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/cf3d2646-2cfc-4485-ad1e-1998b23072f8">
+
+**Interpretation:**
+- The plot relates that this items main influence for a higher prediction is the Item_MRP, the item being a seafood type, and the item being a fruits and vegetables type. 
+- The plot also relates an additional loss in predicted value in outlet size for all three categories (small - 167.27, medium - 225.19, high - 100.78) with the largest lost occuring in the medium sized store.
+
+
+#### Force Plot 
+<img width="457" alt="Screenshot 2023-10-04 150500" src="https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/effe3469-97af-4290-aae6-24b8fdbbe5c0">
+- The above plot relates the largest contributors to the loss in the projected value for this item being a medium sized store and a small sized store. 
+- The item_mrp is a positive enough factor that it is able to increase the predicted value.
+
+##### Contact information:
 
 For any further inquiries or information, please contact:
 - Christopher Hunt Jr.
