@@ -110,65 +110,72 @@ Utilizing this model for predictions on product sales and optimal outlet selecti
 
 ## Coefficients
 
-![coefficients](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/8713bebd-38db-468d-9648-a279ae5bbaff)
+![coefficients](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/07e2cfd7-672b-49a5-aed7-0469c11fcc7f)
 
-**1. Outlet_Type_Supermarket Type3 (Coefficient: 1,763.68):**
 
-- The coefficient for "Outlet_Type_Supermarket Type3" is 1,763.68.
-- This positive coefficient suggests that when the outlet type is "Supermarket Type3," it contributes significantly to an increase in "Item_Outlet_Sales."
-- Sales in "Supermarket Type3" outlets are expected to be approximately $1,763.68 higher, on average, compared to other types of outlets when all other factors are held constant.
+**1. Outlet_Size_Medium (Coefficient: 805.36):**
 
-**2. Item_MRP (Coefficient: 965.06):**
+- The coefficient for "Outlet_Size_Medium " is 805.36.
 
-- The coefficient for "Item_MRP" is 965.06.
-- This positive coefficient indicates that for each unit increase in the Maximum Retail Price (MRP) of an item, "Item_Outlet_Sales" is expected to increase by approximately $965.06, on average, assuming all other factors remain the same.
-- Items with higher maximum retail prices tend to have a significant positive impact on sales.
 
-**3. Outlet_Size_High (Coefficient: 202.39):**
+- This positive coefficient suggests that when the outlet size is "Outlet_Size_Medium" it contributes significantly to an increase in "Item_Outlet_Sales."
 
-- The coefficient for "Outlet_Size_High" is 202.39.
-- A positive coefficient for "Outlet_Size_High" suggests that when the outlet size is categorized as "High," it has a positive effect on "Item_Outlet_Sales."
-- When compared to outlets to smaller sizes, outlets with a "High" size are associated with an average increase of approximately $202.39 in "Item_Outlet_Sales," assuming all other factors remain constant.
+
+- Sales in "Outlet_Size_Medium" outlets are expected to be approximately $805.36 higher, on average, compared to other types of outlets when all other factors are held constant.
+
+
+**2. Outlet_Size_High (Coefficient: 441.83):**
+
+The coefficient for "Outlet_Size_High" is 441.83.
+
+- This negative coefficient indicates that when the outlet size is a "Outlet_Size_High," it leads to a significant decrease in "Item_Outlet_Sales."
+
+- Sales in "Outlet_Size_High" outlets are expected to be approximately $441.83 lower, on average, compared to other types of outlets when all other factors are held constant.
+
+- This suggests that items sold in Outlet_Size_High have a notable negative impact on overall sales, likely due to different market dynamics or product offerings.
+
+
+**3. Item_Visibility (Coefficient: -3,589.50):**
+
+- The coefficient for "Item_Visibility" is -3,589.50.
+
+
+- This positive coefficient indicates that for each unit increase in the Item_Visibility of an item, "Item_Outlet_Sales" is expected to increase by approximately $-3,589.50, on average, assuming all other factors remain the same.
 
 
 
 ## Feature Importance
-![Top_5_Importance](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/0f365450-a4b3-4c78-9f6d-09ea4c74d57e)
+![Top_5_Importance](https://github.com/chrishunt11/Prediction-of-Product-Sales/assets/123383359/d352838a-308b-4cdf-b7a5-f03687a69b9f)
 
 
-**1. Item_MRP (0.443900):**
+**Item_MRP (0.473044):**
 
 - This feature has the highest importance score, which indicates that it has the most significant impact on "Item_Outlet_Sales."
-- For each unit increase in the "Item_MRP" (Maximum Retail Price), we can expect, on average, an increase of approximately 0.443900 units in "Item_Outlet_Sales,". 
-- This means that items with higher maximum retail prices tend to contribute more to total outlet sales.
+
+- This tells us that 47% of the information the model gained from the features in order to make its predictions came from Item_MRP
 
 
-**2. Outlet_Type_Grocery Store (0.196758):**
+**Item_Weight (0.186059):**
 
-- This feature represents the type of outlet, specifically "Grocery Store."
-- An importance score of 0.196758 suggests that the type of outlet being a "Grocery Store" is the second most important factor affecting "Item_Outlet_Sales."
-- This indicates that sales in grocery stores significantly differ from other outlet types, and these stores have a notable impact on overall sales.
-
-
-**3. Item_Visibility (0.096981):**
-
-- "Item_Visibility" is the third most important feature, with an importance score of 0.096981.
-- An increase in the visibility of items on the shelves (e.g., through better placement or promotion) is associated with an average increase of approximately 0.096981 units in "Item_Outlet_Sales." 
-- Making items more visible to customers can positively influence sales.
+- An importance score of 0.186059 suggests that the Item Weight is the second most important factor affecting "Item_Outlet_Sales."
+- This indicates that 18.6% of the information the model gained from the features in order to make its predictions came from Item_Weight
 
 
-**4. Item_Weight (0.053452):**
+**Item_Visibility (0.166589):**
 
-- "Item_Weight" has an importance score of 0.053452, making it the fourth most important feature.
-- This suggests that the weight of the item has a moderate impact on sales. An increase in item weight is associated with an average increase of around 0.053452 units in "Item_Outlet_Sales."
-- Heavier items may have a slight positive influence on sales.
+- "Item_Visibility" is the third most important feature, with an importance score of 0.166589.
+- This indicates that just about 17% of the information the model gained from the features in order to make its predictions came from Item_Visibility
 
-**5. Outlet_Type_Supermarket Type3 (0.029663):**
+**Outlet_Size_Medium (0.048110):**
 
-- This feature represents a specific type of supermarket outlet, "Supermarket Type3."
-- With an importance score of 0.029663, it is the fifth most important feature.
-- The presence of "Supermarket Type3" outlets is associated with an average increase of approximately 0.029663 units in "Item_Outlet_Sales."
-- This indicates that the sales in Supermarket Type3 outlets differ from other types and contribute moderately to overall sales.
+- "Outlet_Size_Medium" has an importance score of 0.048110, making it the fourth most important feature.
+- This indicates that about 5% of the information the model gained from the features in order to make its predictions came from Outlet_Size_Medium
+
+**Outlet_Size_Small (0.015034):**
+
+- This feature represents a specific type of outlet, "Outlet_Size_Small "
+- With an importance score of 0.015034, it is the fifth most important feature.
+- This indicates that about 2% of the information the model gained from the features in order to make its predictions came from Outlet_Size_Small
 
 
 ### SHAP Bar Plot Interpretation
